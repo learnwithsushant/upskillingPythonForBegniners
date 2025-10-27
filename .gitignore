@@ -1,0 +1,51 @@
+# ------------------------------------
+# 1. Virtual Environment
+# ------------------------------------
+# Python virtual environment directories
+venv/
+.venv/
+env/
+.env/
+
+# ------------------------------------
+# 2. Python Specific Ignores
+# ------------------------------------
+# Byte-compiled / optimized / shared library files
+__pycache__/
+*.pyc
+*.pyd
+*.pyo
+
+# IDE-specific metadata for running/debugging
+.idea/     # PyCharm/IntelliJ
+.vscode/   # VS Code settings
+.mypy_cache/
+.pytest_cache/
+htmlcov/
+.coverage
+
+# Distribution / packaging
+.Python
+build/
+dist/
+*.egg-info/
+.installed.cfg
+
+# ------------------------------------
+# 3. Jupyter Notebook / IPython Ignores
+# ------------------------------------
+# Checkpoint directories created by Jupyter/IPython for notebooks
+.ipynb_checkpoints/
+
+# Temporary files created by Jupyter (or other tools)
+*.nbdata
+*.nbconvert
+*~.ipynb # Backup notebooks
+
+# ------------------------------------
+# 4. Spyder Specific Ignores
+# ------------------------------------
+# Spyder specific temporary files
+.spyderproject
+.spyproject/
+.spyproject-py3/
