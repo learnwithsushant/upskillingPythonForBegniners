@@ -4,5 +4,10 @@
 # age = 100 -  int(input("Enter your age"))
 # print(f" It would take {age} to reach 100 years")
 
-r = float(input("Enter radius"))
-print(f"Area of circle is {3.14*r*r}")
+# r = float(input("Enter radius"))
+# print(f"Area of circle is {3.14*r*r}")
+
+expr = input("Enter a math expression")
+
+print(eval(expr))
+
