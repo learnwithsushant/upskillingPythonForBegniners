@@ -11,3 +11,16 @@ expr = input("Enter a math expression")
 
 print(eval(expr))
 
+num = input("Enter any number")
+print(int(num)+10)
+
+fltNum = float(input("Enter float number"))
+cov2Int = int(fltNum)
+print(f" Flooting num us {fltNum} and int num is {cov2Int}")
+
+x=True
+print(type(x))
+
+print(17%4)
+
+print(4**2+1)
