@@ -24,3 +24,27 @@ print(type(x))
 print(17%4)
 
 print(4**2+1)
+
+a=int(input("Enter first no."))
+b=int(input("Enter Sec no."))
+print(f"Substraction of two no. is{a-b}")
+print(4**2+1)
+a=1.234
+b=2.456
+print(a+b)
+
+rad=2.5
+print(f"Area of circle is {3.14*(rad**2)}")
+
+   print(2.5*1000)
+    
+ll=[2.5,3.5,7.0]
+avg = sum(ll) / len(ll)
+
+print(f"Average of no. {avg}")
+
+x=10
+print(bool(x))
+
+y=0
+print(bool(y))
