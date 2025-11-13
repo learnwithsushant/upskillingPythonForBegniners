@@ -14,3 +14,8 @@ for i in range(len(list1)):
 
 print(list3)
 
+normString = "madam"
+reveresedString = "".join(reversed(normString))
+if normString == reveresedString:
+    print("Palindrom")
+
