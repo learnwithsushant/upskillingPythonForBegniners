@@ -1,3 +1,5 @@
+import math
+print(f"Sqr root {math.sqrt(25)}")
 normString = "python"
 print(normString[::-1])
 reveresedString = "".join(reversed(normString))
@@ -18,4 +20,6 @@ normString = "madam"
 reveresedString = "".join(reversed(normString))
 if normString == reveresedString:
     print("Palindrom")
+
+print(f"Sqr root {math.sqrt(25)}")
 
