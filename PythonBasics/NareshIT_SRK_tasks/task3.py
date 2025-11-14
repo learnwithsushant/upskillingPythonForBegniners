@@ -23,3 +23,6 @@ if normString == reveresedString:
 
 print(f"Sqr root {math.sqrt(25)}")
 
+replaceChar = "This is the perfect time to study gen AI"
+print(replaceChar.replace(" ","_"))
+
