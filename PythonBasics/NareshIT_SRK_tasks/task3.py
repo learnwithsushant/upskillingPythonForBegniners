@@ -26,3 +26,15 @@ print(f"Sqr root {math.sqrt(25)}")
 replaceChar = "This is the perfect time to study gen AI"
 print(replaceChar.replace(" ","_"))
 
+strMultiplier = 's'
+print(strMultiplier*10)
+
+splitDemo = "Lets split this string"
+ll = splitDemo.split()
+print(ll)
+
+
+
+
+
+
