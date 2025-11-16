@@ -33,7 +33,16 @@ splitDemo = "Lets split this string"
 ll = splitDemo.split()
 print(ll)
 
+charCount = 'banana'
+print(charCount.count('a'))
 
+print(charCount.index('n'))
+
+print('openai'.upper().lower())
+
+# Swap case
+
+print('Hello WorLd'.swapcase())
 
 
 
