@@ -42,7 +42,7 @@ print('openai'.upper().lower())
 
 # Swap case
 
-print('Hello WorLd'.swapcase())
+print('Hello Wonderful WorLd'.swapcase())
 
 
 
