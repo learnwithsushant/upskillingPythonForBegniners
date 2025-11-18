@@ -44,6 +44,8 @@ print('openai'.upper().lower())
 
 print('Hello Wonderful WorLd'.swapcase())
 
+print('Hello Wonderrful WorLd'.swapcase())
+
 
 
 
