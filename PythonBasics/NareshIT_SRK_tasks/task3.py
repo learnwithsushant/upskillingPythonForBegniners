@@ -46,6 +46,10 @@ print('Hello Wonderful WorLd'.swapcase())
 
 print('Hello Wonderrful WorLd'.swapcase())
 
+print('programming'.replace('m',""))
 
+word = "programming"
+result = word[3:7]
+print(result)
 
 
