@@ -58,6 +58,7 @@ print(new_list)
 print(sorted_list)
 
 print(new_list.reverse())
+print(new_list.count)
 
 
 
