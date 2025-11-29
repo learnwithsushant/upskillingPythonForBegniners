@@ -52,4 +52,13 @@ word = "programming"
 result = word[3:7]
 print(result)
 
+new_list = ['a','b','c','e','w','q']
+sorted_list = new_list.sort()
+print(new_list)
+print(sorted_list)
+
+print(new_list.reverse())
+print(new_list.count)
+
+
 
