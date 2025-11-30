@@ -60,5 +60,18 @@ print(sorted_list)
 print(new_list.reverse())
 print(new_list.count)
 
+#Q12
+strRep = 'Hello_everyone'
+newStr = strRep.replace('everyone','there')
+print(newStr)
+
+#Q13
+strRep = "Hello World How are you"
+newStr = strRep.replace(' ','-')
+print(newStr)
+
+
+
+
 
 
