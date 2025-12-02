@@ -70,6 +70,11 @@ strRep = "Hello World How are you"
 newStr = strRep.replace(' ','-')
 print(newStr)
 
+#Q14
+withSpaces = ' messy text '
+trimSpaces = withSpaces.lstrip().rstrip()
+print(trimSpaces)
+
 
 
 
