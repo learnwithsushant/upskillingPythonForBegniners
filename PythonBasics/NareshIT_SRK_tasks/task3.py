@@ -75,6 +75,12 @@ withSpaces = ' messy text '
 trimSpaces = withSpaces.lstrip().rstrip()
 print(trimSpaces)
 
+#Q18
+word_list = ["I", "Love", "Coding"]
+separator = " "
+sentence = separator.join(word_list)
+print(sentence)
+
 
 
 
