@@ -76,7 +76,7 @@ trimSpaces = withSpaces.lstrip().rstrip()
 print(trimSpaces)
 
 #Q18
-word_list = ["I", "Love", "Coding"]
+word_list = ["I", "Love", "Coding","Python"]
 separator = " "
 sentence = separator.join(word_list)
 print(sentence)
