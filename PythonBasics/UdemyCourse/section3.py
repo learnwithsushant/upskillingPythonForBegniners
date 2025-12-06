@@ -21,3 +21,10 @@ mlist[0] = 'ONE'
 print(mlist)
 mlist.append("four")
 print(mlist)
+
+myFirstDist = {"key1":"value1","key2":"value2","key3":"value3"}
+print(myFirstDist)
+print(myFirstDist["key2"])
+
+price_lookUp = {"apple":5,"banana":15,"grapes":20}
+print(price_lookUp["grapes"])
