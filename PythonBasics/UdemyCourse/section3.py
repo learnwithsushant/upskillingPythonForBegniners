@@ -28,3 +28,30 @@ print(myFirstDist["key2"])
 
 price_lookUp = {"apple":5,"banana":15,"grapes":20}
 print(price_lookUp["grapes"])
+
+#Nested Dictionaries
+nested_Dictionary = {"k1":"VW","k2":15,"k3":["SPM","AbV","KHS"],"k4":{"CBSE":["SPM","KHS"],"SSC":["AbV","SPM","MSG"]}}
+print(nested_Dictionary)
+print(nested_Dictionary["k2"])
+print(nested_Dictionary["k3"][-1])
+print(nested_Dictionary["k4"]["SSC"][-2])
+nested_Dictionary["k4"]["SSC"].append("NIS")
+print(nested_Dictionary)
+print(nested_Dictionary.keys())
+
+
+def get_all_keys(d):
+    keys = []
+    for key, value in d.items():
+        keys.append(key)
+        if isinstance(value, dict):     # check if nested dictionary
+            keys.extend(get_all_keys(value))
+    return keys
+
+all_keys = get_all_keys(nested_Dictionary)
+print(all_keys)
+
+
+print(nested_Dictionary.values())
+
+print(nested_Dictionary.items())
