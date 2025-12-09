@@ -55,3 +55,8 @@ print(all_keys)
 print(nested_Dictionary.values())
 
 print(nested_Dictionary.items())
+
+# Startting  with Tuples
+t1=(1,2,3,4,5,6,7)
+print(t1.count(1))
+print("Index of element 7 is -> ",t1.index(7))
