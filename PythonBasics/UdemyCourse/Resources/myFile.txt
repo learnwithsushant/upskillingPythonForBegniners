@@ -3,3 +3,5 @@ I am writing some text to this file and then would retrive using python.
 Later using python i''ll perform some file operation.
 This is for udemy tutorial
  This new line writen in write mode
+ This new line writen in write mode
+ This second line writen in write mode
