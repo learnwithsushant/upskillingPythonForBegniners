@@ -1,3 +1,5 @@
+#This is code for learning python file op.
+
 myfile = open('PythonBasics\\UdemyCourse\\Resources\\myFile.txt')
 print(myfile.read())
 myfile.seek(0)
