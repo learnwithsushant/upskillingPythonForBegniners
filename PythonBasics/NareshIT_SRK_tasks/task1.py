@@ -62,3 +62,6 @@ greeting = "Good Morning !"
 print(greeting)
 del(greeting)
 print(greeting)
+
+modOp = 5%2
+print(modOp)
