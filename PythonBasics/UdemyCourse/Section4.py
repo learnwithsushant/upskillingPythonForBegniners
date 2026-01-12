@@ -8,3 +8,10 @@ elif num>=80 and num<90:
     print("Distinction")
 else :
     print('Merit')    
+
+
+# For Loop
+my_list = [1,2,3]
+
+for items in my_list:
+    print(items)
