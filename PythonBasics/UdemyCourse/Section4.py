@@ -15,3 +15,9 @@ my_list = [1,2,3]
 
 for items in my_list:
     print(items)
+
+sum = 0;
+for items in my_list:
+    sum+=items
+
+print(sum)    
