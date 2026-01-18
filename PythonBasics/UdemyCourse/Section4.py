@@ -26,4 +26,23 @@ myString = 'I am mindful person'
 
 for letters in myString:
     print(letters)
-    
+
+# THis syntax prints Person as many no. of time as letter in "Positive"
+myString = "Positive"
+for _ in myString:
+    print("Person")
+
+myList = [(1,2),(3,4),(5,6),(7,8)]
+
+for a,b in myList:
+    print(a)
+    print(b)
+
+d= {"k1":1,"k2":2,"k3":3}
+
+#this prints keys in dictionaries
+for ditems in d:
+    print(ditems)
+
+for dvals in d.values():
+    print(dvals)    
