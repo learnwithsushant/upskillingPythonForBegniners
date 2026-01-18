@@ -20,4 +20,10 @@ sum = 0;
 for items in my_list:
     sum+=items
 
-print(sum)    
+print(sum)
+
+myString = 'I am mindful person'
+
+for letters in myString:
+    print(letters)
+    
