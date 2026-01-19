@@ -45,4 +45,12 @@ for ditems in d:
     print(ditems)
 
 for dvals in d.values():
-    print(dvals)    
+    print(dvals)   
+
+x = 0
+
+while x < 5:
+    print(f"Value of x is {x}")
+    x+=1
+else:
+    print(f"Value of x is else {x}")
