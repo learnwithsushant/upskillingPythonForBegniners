@@ -54,3 +54,11 @@ while x < 5:
     x+=1
 else:
     print(f"Value of x is else {x}")
+
+
+for num in range(10):
+    print(num)
+
+for num in range(7,10):
+    print(num)    
+
