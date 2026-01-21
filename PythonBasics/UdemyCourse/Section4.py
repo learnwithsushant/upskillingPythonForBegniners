@@ -60,5 +60,20 @@ for num in range(10):
     print(num)
 
 for num in range(7,10):
-    print(num)    
+    print(num)   
+
+#with step size
+
+for num in range(0,11,2):
+    print(num)  
+
+#with enumerator
+
+word = 'abcde'
+for item in enumerate(word):
+    print(item)
+
+for index,letter in enumerate(word):
+    print(index)
+    print(letter)    
 
