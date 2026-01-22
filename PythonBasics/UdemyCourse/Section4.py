@@ -75,5 +75,18 @@ for item in enumerate(word):
 
 for index,letter in enumerate(word):
     print(index)
-    print(letter)    
+    print(letter)
+
+# zip function
+
+zipList1=[1,2,3,4]
+zipList2=['a','b','c','d']
+zipList3=[3.1,3.2,3.3,3.4]
+
+for item in zip(zipList1,zipList2,zipList3):
+    print(item)
+
+zipList4 = list(zip(zipList1,zipList2,zipList3))
+
+print(zipList4)
 
