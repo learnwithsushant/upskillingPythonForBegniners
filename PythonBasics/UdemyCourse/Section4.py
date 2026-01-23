@@ -90,3 +90,9 @@ zipList4 = list(zip(zipList1,zipList2,zipList3))
 
 print(zipList4)
 
+print('a' in 'a world')
+print('mykey' in {'mykey':1})
+
+d= {'mykey':1}
+print(1 in d.values())
+print(1 in d.keys())
