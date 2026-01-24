@@ -80,6 +80,8 @@ for index,letter in enumerate(word):
 # zip function
 
 zipList1=[1,2,3,4]
+
+
 zipList2=['a','b','c','d']
 zipList3=[3.1,3.2,3.3,3.4]
 
@@ -96,3 +98,15 @@ print('mykey' in {'mykey':1})
 d= {'mykey':1}
 print(1 in d.values())
 print(1 in d.keys())
+
+listWithmin=[1,2,3,4]
+
+print(min(listWithmin))
+
+print(max(listWithmin))
+
+from random import shuffle
+
+myShhuffleList = ['ABC','efg','xyz']
+
+shuffle(myShhuffleList)
