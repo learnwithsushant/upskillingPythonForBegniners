@@ -107,6 +107,10 @@ print(max(listWithmin))
 
 from random import shuffle
 
-myShhuffleList = ['ABC','efg','xyz']
+myShhuffleList = ['ABC','efg','xyz','def']
 
 shuffle(myShhuffleList)
+
+from random import randint
+
+print(randint(1,100))
