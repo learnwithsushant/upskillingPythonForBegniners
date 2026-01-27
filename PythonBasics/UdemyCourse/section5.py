@@ -73,7 +73,7 @@ farenheit = [((9/5)*temp+32) for temp in celcius]
 print(farenheit)
 
 # if-else in flattern list
-oddListNum = [x if x%2!=0 else 'Even' for x in range(0,12)]
+oddListNum = [x if x%2!=0 else 'Even' for x in range(0,13)]
 print(oddListNum)
 
 #nested loop in flattern list
