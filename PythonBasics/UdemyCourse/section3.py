@@ -30,7 +30,7 @@ price_lookUp = {"apple":5,"banana":15,"grapes":20}
 print(price_lookUp["grapes"])
 
 #Nested Dictionaries
-nested_Dictionary = {"k1":"VW","k2":15,"k3":["SPM","AbV","KHS"],"k4":{"CBSE":["SPM","KHS"],"SSC":["AbV","SPM","MSG"]}}
+nested_Dictionary = {"k1":"VW","k2":15,"k3":["SPM","AbV","KHS"],"k4":{"CBSE":["SPM","KHS"],"SSC":["AbV","SPM","MSG","HSC"]}}
 print(nested_Dictionary)
 print(nested_Dictionary["k2"])
 print(nested_Dictionary["k3"][-1])
